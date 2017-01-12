@@ -1,0 +1,373 @@
+
+Body {
+	background-color: #61122f;
+}
+
+.navbar {
+	border-radius: 0;
+	background-color: #f6b319;
+	border: 0px;
+
+}
+
+#logo-image {
+	background: url("https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture30/after/images/restaurant-logo_large.png?raw=true");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0px;
+}
+
+
+.navbar-brand h1 {
+	font-family: 'lora', serif;
+	font-weight: bold;
+	color: #557c3e;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+	line-height: .75;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.navbar-brand #kosher-certification {
+	color: #000;
+	vertical-align: middle;
+	font-size: .6em;
+	text-transform: uppercase;
+}
+
+
+#nav-list li a {
+	color: #951C49;
+	font-family: 'oxygen', serif;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#nav-list li a:hover {
+	background-color: white;
+	transition: .7s;
+	margin-bottom: 20px;
+}
+
+
+#nav-list li div {
+	color: green;
+	font-size: 1.2em;
+	text-align: right;
+	margin-top: -10px;
+	padding-right: 15px;
+}
+
+#nav-list li span {
+	font-size: 1.8em;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #61122f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	 background-color: #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-bottom: 15px;
+}
+
+.brand-name a:hover {
+	text-decoration: none;
+}
+
+.container .jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile {
+  background: url('https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture37/after/images/menu-tile.jpg?raw=true') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture37/after/images/specials-tile.jpg?raw=true') no-repeat;
+  background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+	
+}
+
+.panel-footer {
+	font-size: 16px;
+	margin-top: 30px;
+	background-color: #222;
+	border: 0;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 35px;
+	font-family: 'oxygen';
+}
+
+.hours-section, .address-section {
+	line-height: 2;
+}
+
+.testimonials {
+	font-style: italic;
+}
+
+.address-section p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+.hours-section span, .address-section span {
+	font-size: 1.5em;
+}
+
+.testimonials p:nth-child(1) {
+	margin-bottom: 25px;
+}
+
+#copyright {
+	margin-top: 30px;
+}
+
+h2, h2 + div {
+	color: #fff;
+}
+
+h2 + div {
+	margin-bottom: 50px;
+}
+
+
+.category-tile {
+	position: relative;
+	margin-bottom: 25px;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+  	margin: 0 auto 15px;
+  	background-position: center;
+  	border: 2px solid #3F0C1F;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.single-page-heading {
+	margin-bottom: 50px;
+}
+
+.content-tile {
+	border: 2px solid #3F0C1F;
+	position: relative;
+	overflow: hidden;
+	background-position: center;
+	padding: 0;
+  	max-width: 250px;
+  }
+
+#D-tile {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #557c3e;
+	width: 80px;
+	text-align: center;	
+}
+
+.image-price {
+	text-align: right;
+	margin-top: 5px;
+	font-size: 1.1em;
+
+}
+
+.image-price span {
+	font-size: .6em;
+}
+
+#image-heading {
+	font-size: 24px;
+	margin: 0 0 10px;
+	padding-right: 30px;
+	font-weight: bolder;
+}
+
+#image-description {
+	font-style: italic;
+	font-size: .9em;
+	padding-right: 30px;
+}
+
+.single-page-content {
+	margin-bottom: 40px;
+}
+
+/* ********** LARGE DEVICES ONLY ********** */
+
+@media (min-width: 1200px) {
+	
+	.container .jumbotron {
+		background: url('https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture37/after/images/jumbotron_1200.jpg?raw=true'), no-repeat;
+		height: 675px;
+	}
+
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  .navbar-brand h1 {
+  	font-size: 1.5em;
+  }
+
+  #logo-image {
+	background: url("https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture35/after/images/restaurant-logo_medium.png?raw=true");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin: 5px 9px 5px 0px;
+
+  }
+
+  .container .jumbotron {
+		background: url('https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture37/after/images/jumbotron_992.jpg?raw=true') no-repeat;
+		height: 558px;
+	}
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.navbar-brand h1 {
+		font-size: 3vw;
+		
+	}
+
+	.container .jumbotron {
+		background: url('https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/examples/Lecture37/after/images/jumbotron_768.jpg?raw=true') no-repeat;
+		height: 432px;
+	}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+
+	.btn {
+		background-color: #f6b319;
+		text-align: center;
+		width: 95%;
+		margin-left: 2.5%;
+		height: 60px;
+		border: 2px white solid;
+		padding: 10px;
+		font-size: 25px;
+		color: #951c49;
+		font-family: 'oxygen', serif;
+
+	}
+
+	#deliver-message {
+		font-size: .8em;
+		font-family: 'oxygen', serif;
+		text-align: center;
+		color: white;
+		text-transform: uppercase;
+		margin-top: 5px;
+
+	}
+
+	#collapsable-nav li span.glyphicon {
+		font-size: 1.2em;
+		margin-right: 5px;
+
+	}
+
+	#nav-list li a {
+		font-size: 20px;
+		margin-top: 0px;
+
+	}
+
+	#nav-list li a:hover, #nav-list li a:active,
+	#nav-list li a:focus  {
+	background-color: white;
+	transition: .7s;
+	margin-bottom: 0px;
+}
+
+	.container .jumbotron {
+		padding: 0;
+		margin-top: 30px;
+	}	
+
+	#menu-tile, #specials-tile, #map-tile {
+		width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	hr {
+		width: 50%;
+	}
+
+	.hours-section, .address-section, .testimonials {
+		text-align: center;
+	}
+}
