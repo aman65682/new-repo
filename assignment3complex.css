@@ -1,0 +1,106 @@
+
+/* ***** NAV BAR MENU OPENUNG ***** */
+#nav-head {
+	background-color: grey;
+	border-radius: 0;
+	border: 0px;
+}
+h1 {
+	margin-bottom: auto;
+	margin-top: auto;
+	width: 100%;
+	color: #000;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a {
+	color: black;
+	background-color: white;
+	border: 1px black solid;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	background-color: yellow;
+	font-size: 1.4em;
+	transition: .5s;
+	font-weight: bolder;
+}
+.navbar-header {
+	height: 80px;
+}
+.navbar-default .navbar-toggle {
+	background-color: grey;
+	border: 2px black solid;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+/* ***** NAV BAR MENU ENDING ***** */
+
+/* ***** MAIN CONTENT OPENING ***** */
+
+#chicken-tile, #Beef-tile, #Sushi-tile {
+	background-color: grey;
+	margin-top: 30px;
+	color: black;
+	height: 700px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.backtotop {
+	position: absolute;
+	bottom: 0px;
+}
+.backtotop span {
+	color: white;
+}
+.backtotop a {
+	color: blue;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+/* ***** MAIN CONTENT ENDING ***** */
+
+/* ********** UPTO MEDIUM DEVICES ONLY ********** */
+
+@media (min-width: 992px) {
+.col-md-4 {
+    width: 31.8%;
+	}
+#chicken-tile, #Beef-tile, #Sushi-tile {
+    margin-left: 1%;
+	}
+
+}
+
+
+/* ********** FOR SMALL DEVICES ONLY ********** */
+
+@media (min-width:767px ) and (max-width: 991px) {
+.col-sm-6 {
+    width: 46%;
+	}
+.col-sm-12 {
+	width: 94%; 
+	}
+#chicken-tile {
+	margin-left: 2%;
+	margin-right: 2%;
+	}
+#Sushi-tile {
+	margin-right: 2%;
+	margin-left: 2%;
+	}
+}
+
+/* ********** FOR EXTRA DEVICES ONLY ********** */
+
+@media (max-width: 766px) {
+	.col-xs-12 {
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+}
